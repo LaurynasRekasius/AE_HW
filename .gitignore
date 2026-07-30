@@ -1,0 +1,22 @@
+# Safety: never commit internal grading material or candidate PII to a candidate-shared repo.
+*EVALUATOR*
+*GRADING*
+EVALUATION.md
+COMPARISON.md
+completed tasks/
+baseline/
+ranked*.csv
+*_shortlist*.csv
+scores*.jsonl
+scoring_input*.jsonl
+candidates.csv
+summary.csv
+template_flags.csv
+llm_verdicts*.jsonl
+*relevance*.jsonl
+resumes/
+cover_letters/
+
+# python
+__pycache__/
+*.pyc
